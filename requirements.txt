@@ -32,22 +32,22 @@ jsonschema==3.0.1
 # Office module
 olefile==0.46
 xxxswf @ git+https://github.com/viper-framework/xxxswf.git@9188316eb7a179326d99bfde9fe0184bb3cee6a3#egg=xxxswf
-pyparsing==2.4.0
+pyparsing==2.4.7
 packaging==19.0
 
 # PE module
 pefile==2019.4.18
 
 # PE module (verify sigs)
-# SEE: bitstring in requirements-core.txt
-pyasn1==0.4.6
-pyopenssl==19.0.0
-cryptography==2.6.1
-cffi==1.12.3
-asn1crypto==0.24.0
-idna==2.8
-ipaddress==1.0.22
-pycparser==2.19
+bitstring==3.1.7
+pyasn1==0.4.8
+pyopenssl==19.1.0
+cryptography==2.9.2
+cffi==1.14.0
+asn1crypto==1.3.0
+idna==2.9
+ipaddress==1.0.23
+pycparser==2.20
 
 # PSSL Module
 pypssl==2.1
@@ -90,7 +90,7 @@ PyMISPGalaxies @ git+https://github.com/MISP/PyMISPGalaxies.git#egg=PyMISPGalaxi
 ocrd-pyexiftool==0.2.0
 
 # LIEF module
-lief==0.10.0.dev0 ; python_version >= '3.5'
+lief==0.10.1 ; python_version >= '3.6'
 
 # Snoopdroid module
 snoopdroid==2.1
